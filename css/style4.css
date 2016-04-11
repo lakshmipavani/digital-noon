@@ -1,7 +1,7 @@
 #main{
 
 width:100%;height:99%;border:1px solid pink;
-background-image:url("img.jpg");
+background-image:url("../images/img.jpg");
 
 
 }
@@ -76,6 +76,11 @@ li a {
     margin:0px 0px 0px 0px;
     
 }
+li a.active {
+    background-color:black;
+    color: white;
+    }
+    
 li :hover:not(.active) {
     background-color: #4CAF50;
 }
@@ -123,16 +128,11 @@ li :hover:not(.active) {
         font-size:25px;
         padding:7px;
     }
-    #p3{
-        font-size:50px;
+    .time{
+      font-size:50px;
+
     }
-     #p4{
-        font-size:50px;
-        opacity:0.7;
-    }
-     #p5{
-        font-size:50px;
-    }
+    
  footer{
      margin-top:230px;
      margin-left:10px;
