@@ -15,7 +15,7 @@
             am = "PM";
         }
 
-        document.getElementById("p1").innerHTML = day + ", ";
+        document.getElementById("p1").innerHTML = week[day] + ", ";
         document.getElementById("p2").innerHTML = date + " ";
         document.getElementById("p3").innerHTML = month[mon] + " ";
         document.getElementById("p4").innerHTML = d.getFullYear();
