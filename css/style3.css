@@ -1,0 +1,161 @@
+#main{
+
+width:100%;height:99%;border:1px solid pink;
+background-image:url("img.jpg");
+
+
+}
+
+#division1{
+
+ width:84%;
+ height:99%;
+ 
+ float:left;
+
+}
+
+img{
+ width:220px;
+ height:130px;
+ border-radius:220px;
+ float:left;
+
+}
+
+#division2{
+
+ width:15%;
+ height:99%;
+
+ float:left;
+ background-color: #333;
+}
+
+
+header
+{
+color:rgb(255,100,26);
+margin:0px 0px 0px 50px;
+font-size:50px;
+
+}
+
+
+sub{
+  font-size:30px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+    
+   
+}
+
+li {
+    border-right:1px solid #bbb;
+    font-size:20px;
+    width:300px;
+    height:50px;
+    margin:0px -30px 0px -30px;
+   
+    color: white;
+}
+
+li a {
+    display: block;
+    color: rgb(227,113,28);
+    text-decoration:none;
+    margin:0px 0px 0px 0px;
+    
+}
+li :hover:not(.active) {
+    background-color: #4CAF50;
+}
+
+
+
+      #section1 {
+        width: 40%;
+        height: 30%;
+        margin-top: 110px;
+        margin-left: 420px;
+     }
+    
+    #part1 {
+        width: 100%;
+        height: 70%;
+        color: white;
+        padding-top: 100px;
+        text-align: center;
+        font-size: 400%;
+    }
+    
+    #part2 {
+        color:red;
+        width: 100%;
+        height: 30%;
+        text-align: center;
+        font-size: 320%;
+        margin-top: -60px;
+    }
+
+    #p1{
+  height:30%;
+  width:30%;
+  background-color: #0C4862;
+  color:#FFE403;
+  }
+
+#p2{
+  height:30%;
+  width:30%;
+  background-color: #0C4862;
+  color:#FFE403;
+  }
+#p3{
+  height:30%;
+  width:30%;
+  background-color: #0C4862;
+  color:#FFE403;
+  }
+#p4{
+  height:30%;
+  width:30%;
+  background-color: #0C4862;
+  color:#FFE403;
+  }
+
+#c1{
+font-size:60px;
+opacity: 0.8;
+}
+ #c2{
+font-size:60px;
+opacity: 0.8;
+}
+ #c3{
+font-size:60px;
+opacity: 0.8;
+}
+
+
+
+
+ p{
+  font-size: 25px;
+  color:rgb(123,82,173);
+  text-align: center; 
+ }
+
+ footer{
+     margin-top:240px;
+     margin-left:10px;
+     font-size: 20px;
+     color:blue;
+
+    }
+ 
+
