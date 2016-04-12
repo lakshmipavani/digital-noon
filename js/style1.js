@@ -22,6 +22,7 @@ if(sec<10)
 {
 sec="0"+sec;
 }
+
         document.getElementById("p1").innerHTML = h;
         document.getElementById("p3").innerHTML = min;
         document.getElementById("p4").innerHTML = month[mon] + " " + dt + " " + week[day];

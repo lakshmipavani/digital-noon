@@ -20,7 +20,6 @@ if(min<10)
 min="0"+min;
 }
 
-
         document.getElementById("p1").innerHTML= date+" "+ month[mon];
         document.getElementById("p2").innerHTML= week[day];
         document.getElementById("p3").innerHTML= h;
